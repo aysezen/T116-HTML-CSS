@@ -1,0 +1,33 @@
+/* yorum satiri bu sekilde eklenir */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Merriweather', serif; /* Bu kismi Google font tan CSS rules olarak alip geldik*/
+    padding: 20px;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+} /* bunu yapmazsak kaymalar oluyor */
+
+a {
+    text-decoration: none; /* linklerin altindaki cizgileri kaldirdik*/
+}
+
+input, textarea {
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+}
+
+button {
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    background-color: yellowgreen ;
+    font-size: 30px;
+    color: yellow;
+    padding: 10px 30px ;   /*Ilk parametre ust ve alttan uzakligi, ikinci parametre sag ve soldan uzakligi belirler  */
+}
+

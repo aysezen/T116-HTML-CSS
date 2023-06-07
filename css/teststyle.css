@@ -1,0 +1,33 @@
+p {
+font-size: 30px;
+color: blueviolet;
+background-color: rgb(212, 170, 234);
+text-align: right;
+}
+
+/* div {
+    border: 10px solid rgb(177, 9, 171);
+    width: 20%;
+    text-align: center;
+    background-color: rgb(213, 102, 210) ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(226, 72, 5) ;
+}*/
+
+h1{
+    text-shadow: 10px -10px 5px gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.container div {
+background-color: blue;
+width: 160px;
+height: 160px;
+margin: 10px;
+}
